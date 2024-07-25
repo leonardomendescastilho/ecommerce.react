@@ -1,9 +1,10 @@
 import { ProductsContainer } from './ProductsContainer.jsx';
+import { ProductsFilters } from './ProductsFilters.jsx';
 
 export function Main() {
 	return (
 		<>
-			<h1>Filtros</h1>
+			<ProductsFilters />
 
 			<ProductsContainer />
 		</>

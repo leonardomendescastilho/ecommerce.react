@@ -6,7 +6,12 @@ export function ProductsContainer() {
 		<section className=''>
 			<div className='container flex flex-wrap mx-auto p-10 justify-center gap-10 '>
 				{catalog.map((product) => {
-					return <ProductCard {...product} />;
+					return (
+						<ProductCard
+							key={`product_${product.id}_key`}
+							{...product}
+						/>
+					);
 				})}
 			</div>
 		</section>

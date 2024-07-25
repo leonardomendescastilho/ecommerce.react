@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+
 export function ProductCard({
 	id,
 	brand,
@@ -21,6 +24,9 @@ export function ProductCard({
 			<p className='mx-4 text-sm text-gray-500 text-right '>
 				{feminine ? 'Feminino' : 'Masculino'}
 			</p>
+			<button className='rounded-md mx-4 my-1 bg-slate-950 text-slate-100 font-bold leading-7 hover:bg-indigo-800 transition-all duration-200'>
+				<FontAwesomeIcon icon={faCartPlus} />
+			</button>
 		</article>
 	);
 }
