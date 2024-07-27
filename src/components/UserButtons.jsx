@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBagShopping, faUser } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 export function UserButtons() {
 	return (
@@ -14,9 +15,12 @@ export function UserButtons() {
 						5
 					</span>
 				</button>
-				<a className='px-2'>
+				<Link
+					to='/history'
+					className='px-2'
+				>
 					<FontAwesomeIcon icon={faUser} />
-				</a>
+				</Link>
 			</div>
 		</>
 	);
