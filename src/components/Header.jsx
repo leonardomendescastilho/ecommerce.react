@@ -4,7 +4,10 @@ import { UserButtons } from './UserButtons';
 export function Header() {
 	return (
 		<>
-			<header className='flex sticky top-0 shadow-xl shadow-slate-400 bg-slate-950 text-slate-200 px-8 py-4 justify-between items-end text-xl z-10'>
+			<header
+				className='flex sticky top-0 shadow-xl shadow-slate-400 bg-slate-950
+			 text-slate-200 px-8 py-4 justify-between items-end text-xl z-10'
+			>
 				<a href='/'>
 					<img
 						className='h-16 px-2'
