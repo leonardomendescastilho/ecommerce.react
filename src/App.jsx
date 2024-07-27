@@ -1,7 +1,7 @@
 import { Header } from './components/Header';
-import { Home } from './pages/Home/Home.jsx';
-import { Checkout } from './pages/Checkout/Checkout.jsx';
-import { Purchase } from './pages/Purchase/Purchase.jsx';
+import { Home } from './pages/HomePage/Home.jsx';
+import { Checkout } from './pages/CheckoutPage/Checkout.jsx';
+import { Purchase } from './pages/PurchasePage/Purchase.jsx';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
